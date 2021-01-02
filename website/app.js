@@ -1,7 +1,7 @@
 
 /* Global Variables */
 let CurrentDate = new Date();
-let newDate = CurrentDate.getMonth() + '.' + CurrentDate.getDate() + '.' + CurrentDate.getFullYear();
+let newDate = CurrentDate.getMonth() + 1 + '.' + CurrentDate.getDate() + '.' + CurrentDate.getFullYear();
 const apiKey  ='c8f81e6534c5dd1d2021973dd8479d76&units=imperial';
 const baseURL ='api.openweathermap.org/data/2.5/weather?';
 //Create DOM vars
